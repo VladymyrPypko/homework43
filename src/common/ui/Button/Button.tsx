@@ -3,7 +3,7 @@ import styles from './Button.module.css'
 interface ButtonPropsType {
   text: string
   type: 'button' | 'submit' | 'reset'
-  onClick: () => void
+  onClick?: () => void
 }
 
 export default function Button(props: ButtonPropsType) {

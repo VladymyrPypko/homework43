@@ -1,7 +1,7 @@
 import { configureStore } from "@reduxjs/toolkit"
 import { useDispatch, useSelector } from "react-redux"
-import { notesSlice } from "../../data/notes"
-import { albumsApi } from "../../data/albums"
+import { notesSlice } from "../../data/notes";
+import { albumsApi } from "../../data/albums";
 
 const store = configureStore({
   reducer: {

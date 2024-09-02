@@ -1,12 +1,12 @@
-import styles from './Input.module.css'
+import styles from './Input.module.css';
 
 interface InputPropsType {
   type: string
   name: string
   placeholder?: string
   value?: string
-  onChange?: () => void
-  onBlur?: () => void
+  onChange?: (event: React.ChangeEvent<HTMLInputElement>) => void
+  onBlur?: (event: React.FocusEvent<HTMLInputElement>) => void
 }
 
 export default function Input(props: InputPropsType) {
