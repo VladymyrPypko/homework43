@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import Note from "../model/Note.interface";
+import { Note } from "../model/Note.interface";
 
 
 const initialState = {
