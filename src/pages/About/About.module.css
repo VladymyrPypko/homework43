@@ -1,6 +1,10 @@
+.container {
+  flex: 1;
+}
+
 .title {
   padding-block: 20px;
   padding-inline: 40px;
   font-size: 1.5rem;
-  color: #301b28;
+  color: var(--color-dark-grey);
 }

@@ -1,4 +1,5 @@
 .container {
+  flex: 1;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -8,7 +9,7 @@
 .title {
   padding-inline: 20px;
   font-size: 1.5rem;
-  color: #301b28;
+  color: var(--color-dark-grey);
 }
 
 .list {
@@ -21,14 +22,10 @@
   text-decoration: none;
   font-size: 1.1rem;
   font-weight: 500;
-  color: #301b28;
+  color: var(--color-dark-grey);
   transition: color .3s;
 }
 
-.link:visited {
-  color: #523634;
-}
-
 .link:hover {
-  color: #b6452c;
+  color: var(--color-accent-blue);
 }

@@ -1,0 +1,9 @@
+.input {
+  padding-block: 5px;
+  padding-inline: 10px;
+  border-radius: 5px;
+}
+
+.input:focus {
+  outline: 1px solid var(--color-accent-blue);
+}

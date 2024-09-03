@@ -9,7 +9,7 @@ export default function Home() {
   const notes = useAppSelector(state => state.notes.notes);
 
   return (
-    <div className={styles.home}>
+    <div className={styles.container}>
       <div className={styles.notesContainer}>
         <NoteForm />
         {notes.length ? (
@@ -18,12 +18,12 @@ export default function Home() {
               {notes.map((note) => (
                 <NoteItem key={note.id} note={note} />
               ))}
+              <Button
+                type={'button'}
+                text={'Очистить заметки'}
+                onClick={() => dispatch(resetNotes())}
+              />
             </NoteList>
-            <Button
-              type={'button'}
-              text={'Очистить заметки'}
-              onClick={() => dispatch(resetNotes())}
-            />
           </>
         ) : (
           <p className={styles.emptyList}>Список пуст</p>

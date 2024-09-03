@@ -1,13 +1,14 @@
 .errorMessage {
-  width: 380px;
   position: absolute;
   top: 0px;
-  right: -395px;
-  background-color: #fff;
+  right: -390px;
+  width: 380px;
+  background-color: var(--color-white-100);
   padding-block: 5px;
   border-radius: 5px;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, .3);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 20%);
   text-align: center;
-  color: #9c1a15;
+  font-size: .8rem;
+  color: var(--color-red);
   z-index: 9999;
 }

@@ -24,7 +24,7 @@ export default function NoteForm() {
 
   return (
     <form className={styles.form} onSubmit={formik.handleSubmit}>
-      <div>
+      <div className={styles.formItem}>
         <Input
           type={'text'}
           name={'title'}
@@ -39,7 +39,7 @@ export default function NoteForm() {
         ) : null}
       </div>
 
-      <div>
+      <div className={styles.formItem}>
         <Input
           type={'text'}
           name={'text'}

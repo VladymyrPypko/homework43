@@ -1,5 +1,18 @@
 .button {
+  width: min-content;
+  margin-inline: auto;
+  text-wrap: nowrap;
   cursor: pointer;
   padding-block: 5px;
   padding-inline: 10px;
+  background-color: var(--color-white-100);
+  border-radius: 5px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--color-dark-grey);
+  transition: color .3s;
+}
+
+.button:hover {
+  color: var(--color-accent-blue);
 }

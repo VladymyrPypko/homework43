@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 :root {
-  --color-white-100: #ebebeb;
-  --color-white-200: #f5f5f5;
+  --color-white-100: #f5f5f5;
+  --color-white-200: #ebebeb;
+  --color-dark-grey: #555;
   --color-accent-blue: #1cbce8;
   --color-red: #9c1a15;
 }
@@ -23,4 +24,12 @@ body {
   font-family: "Roboto", system-ui;
   font-style: normal;
   font-size: 1rem;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
